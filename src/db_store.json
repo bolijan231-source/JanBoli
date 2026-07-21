@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "phone": "admin@janboli.com",
+      "name": "JanBoli Network Admin (मुख्य सम्पादक)",
+      "district": "Kathmandu (काठमाडौं)",
+      "province": "Bagmati Province (बागमती प्रदेश)",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop",
+      "verified": true,
+      "followers": [],
+      "following": [],
+      "role": "admin",
+      "banned": false
+    },
+    {
+      "phone": "109553994900356710673",
+      "email": "abhinandanmishra2079@gmail.com",
+      "googleSub": "109553994900356710673",
+      "userId": "abhinandanmishra",
+      "name": "Abhinandan Mishra",
+      "district": "Saptari (सप्तरी)",
+      "province": "Madhesh Province (मधेस प्रदेश)",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLhvmIBUsxTlbVzbMA6iWlzXO9ki9dDFhQXNr9FUsSNayfhoA=s96-c",
+      "verified": true,
+      "followers": [],
+      "following": [],
+      "role": "user",
+      "banned": false
+    },
+    {
+      "phone": "116750522442589131663",
+      "name": "News Biratnagar",
+      "district": "Saptari (सप्तरी)",
+      "province": "Madhesh Province (मधेस प्रदेश)",
+      "avatar": "/uploads/upload_1784661999068_1000008071.jpg",
+      "verified": true,
+      "followers": [],
+      "following": [],
+      "role": "user",
+      "banned": false,
+      "email": "bolijan231@gmail.com",
+      "userId": "newsbiratnagar",
+      "userIdLastUpdated": "2026-07-21T19:26:42.164Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "video_1784654793553",
+      "title": "Bhardaha ma road ko halat ",
+      "description": "Bhardaha ma road ko halat herhuhos road ma Kati Pani jameko xa ",
+      "videoUrl": "/uploads/upload_1784654790502_1000010892.mp4",
+      "province": "Madhesh Province (मधेस प्रदेश)",
+      "district": "Saptari (सप्तरी)",
+      "municipality": "खुलाइएको छैन",
+      "exactLocation": "Bhardaha ",
+      "category": "Breaking News (ताजा समाचार)",
+      "reporterPhone": "116750522442589131663",
+      "reporterName": "News Biratnagar",
+      "reporterAvatar": "/uploads/upload_1784661999068_1000008071.jpg",
+      "reporterVerified": true,
+      "likes": [],
+      "comments": [],
+      "savedBy": [
+        "116750522442589131663"
+      ],
+      "status": "approved",
+      "moderationReason": "एडमिनद्वारा स्वीकृत गरिएको।",
+      "confidenceScore": 75,
+      "isBreaking": false,
+      "isSensitiveContent": false,
+      "contentWarningText": "",
+      "createdAt": "2026-07-21T17:26:33.553Z",
+      "reports": []
+    },
+    {
+      "id": "video_1784654623750",
+      "title": "Bhardaha ma road ko halat ",
+      "description": "Road ko halat herhuhos road ma Kati Pani jameko xa",
+      "videoUrl": "/uploads/upload_1784654619127_1000010892.mp4",
+      "province": "Madhesh Province (मधेस प्रदेश)",
+      "district": "Saptari (सप्तरी)",
+      "municipality": "खुलाइएको छैन",
+      "exactLocation": "Bhardaha ",
+      "category": "Breaking News (ताजा समाचार)",
+      "reporterPhone": "116750522442589131663",
+      "reporterName": "News Biratnagar",
+      "reporterAvatar": "/uploads/upload_1784661999068_1000008071.jpg",
+      "reporterVerified": true,
+      "likes": [],
+      "comments": [],
+      "savedBy": [],
+      "status": "approved",
+      "moderationReason": "एडमिनद्वारा स्वीकृत गरिएको।",
+      "confidenceScore": 75,
+      "isBreaking": false,
+      "isSensitiveContent": false,
+      "contentWarningText": "",
+      "createdAt": "2026-07-21T17:23:43.750Z",
+      "reports": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n_adm_app_1784654925601",
+      "targetPhone": "116750522442589131663",
+      "type": "admin",
+      "title": "✅ समाचार स्वीकृत भयो",
+      "body": "तपाईंको समाचार भिडियो \"Bhardaha ma road ko ...\" एडमिनद्वारा स्वीकृत गरिएको छ।",
+      "createdAt": "2026-07-21T17:28:45.601Z",
+      "read": false
+    },
+    {
+      "id": "n_adm_app_1784654912796",
+      "targetPhone": "116750522442589131663",
+      "type": "admin",
+      "title": "✅ समाचार स्वीकृत भयो",
+      "body": "तपाईंको समाचार भिडियो \"Bhardaha ma road ko ...\" एडमिनद्वारा स्वीकृत गरिएको छ।",
+      "createdAt": "2026-07-21T17:28:32.796Z",
+      "read": false
+    },
+    {
+      "id": "n_push_1784654499322",
+      "targetPhone": "all",
+      "type": "breaking",
+      "title": "Well come to Janboli apps ",
+      "body": "Janboli apps kasto xa ",
+      "createdAt": "2026-07-21T17:21:39.322Z",
+      "read": false
+    },
+    {
+      "id": "n1",
+      "targetPhone": "all",
+      "type": "breaking",
+      "title": "🚨 ब्रेकिङ: मेलम्ची खानेपानी आयोजना पुनः अवरुद्ध",
+      "body": "काठमाडौं उपत्यकामा खानेपानीको चरम हाहाकार। सुरुङ मर्मतका लागि बन्द भएसँगै पानी वितरण रोकियो।",
+      "createdAt": "2026-07-20T00:15:00.000Z",
+      "read": false
+    }
+  ]
+}

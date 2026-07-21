@@ -1,0 +1,79 @@
+{
+  "name": "JanBoli News Network",
+  "short_name": "JanBoli",
+  "id": "/",
+  "description": "JanBoli News Network - Nepal's premier short video news platform. जनताको आवाज, भिडियोमा समाचार।",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#004b93",
+  "orientation": "portrait-primary",
+  "lang": "ne",
+  "dir": "ltr",
+  "categories": ["news", "magazines", "entertainment"],
+  "icons": [
+    {
+      "src": "/pwa-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "JanBoli Nepali Short Video News Feed"
+    },
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "JanBoli Citizen Journalism Portal"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ताजा समाचार (Latest News)",
+      "short_name": "समाचार",
+      "description": "ताजा समाचार हेर्नुहोस्",
+      "url": "/",
+      "icons": [{ "src": "/pwa-icon-192.png", "type": "image/png", "sizes": "192x192" }]
+    },
+    {
+      "name": "रिपोर्टिङ गर्नुहोस् (Citizen Upload)",
+      "short_name": "अपलोड",
+      "description": "आफ्नो भिडियो अपलोड गर्नुहोस्",
+      "url": "/?action=upload",
+      "icons": [{ "src": "/pwa-icon-192.png", "type": "image/png", "sizes": "192x192" }]
+    }
+  ]
+}

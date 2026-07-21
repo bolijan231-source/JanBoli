@@ -1,0 +1,6 @@
+{
+  "name": "JanBoli",
+  "description": "Nepal's first short video news platform - जनताको आवाज, भिडियोमा समाचार। TikTok-style full-screen vertical feed of pure, moderated news in Nepali.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

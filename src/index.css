@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-red: #DC2626;
+  --color-brand-blue: #1E3A8A;
+  --color-brand-white: #FFFFFF;
+}
+
+/* Custom scrollbar hiding (vital for TikTok vertical scroll view) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Fullscreen snap scroll styles */
+.snap-y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #020617; /* slate-950 */
+}
+
+/* WebView Safe Area Helpers for seamless APK packing on notched screens */
+.pt-safe {
+  padding-top: max(1rem, env(safe-area-inset-top, 0px));
+}
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+}
+.mt-safe {
+  margin-top: env(safe-area-inset-top, 0px);
+}
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* TikTok Style Spinning Vinyl Disc */
+@keyframes spin-vinyl {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-vinyl {
+  animation: spin-vinyl 5s linear infinite;
+}
+
+/* TikTok Style Floating Music Notes */
+@keyframes float-note-left {
+  0% {
+    transform: translate(0, 0) scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-30px, -70px) scale(1) rotate(-45deg);
+    opacity: 0;
+  }
+}
+@keyframes float-note-right {
+  0% {
+    transform: translate(0, 0) scale(0.4) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-15px, -90px) scale(0.9) rotate(30deg);
+    opacity: 0;
+  }
+}
+.animate-float-note-1 {
+  animation: float-note-left 4s ease-out infinite;
+}
+.animate-float-note-2 {
+  animation: float-note-right 4s ease-out infinite;
+  animation-delay: 2s;
+}
+
+/* TikTok Authentic Plus (+) Button */
+.tiktok-plus-btn {
+  position: relative;
+  width: 46px;
+  height: 30px;
+  background: white;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.15s ease;
+}
+.tiktok-plus-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -3px;
+  width: 12px;
+  background: #00f2fe; /* Cyan */
+  border-radius: 9px;
+  z-index: -1;
+}
+.tiktok-plus-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -3px;
+  width: 12px;
+  background: #fe2c55; /* Magenta/Red */
+  border-radius: 9px;
+  z-index: -2;
+}
+.tiktok-plus-btn:active {
+  transform: scale(0.9);
+}
+
+

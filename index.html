@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ne">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#004b93" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>JanBoli - जनताको आवाज, भिडियोमा समाचार</title>
+    
+    <!-- SEO & App Meta Tags -->
+    <meta name="description" content="JanBoli News Network - Nepal's premier short video news platform. जनताको आवाज, भिडियोमा समाचार।" />
+    <meta name="application-name" content="JanBoli News Network" />
+    <meta name="apple-mobile-web-app-title" content="JanBoli" />
+    <meta name="author" content="JanBoli Network" />
+
+    <!-- OpenGraph & Social Sharing Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="JanBoli News Network - जनताको आवाज, भिडियोमा समाचार" />
+    <meta property="og:description" content="Nepal's first short video news platform - reliable video journalism and citizen reporting." />
+    <meta property="og:image" content="/icon.svg" />
+    
+    <!-- PWA Manifest & App Icons -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/pwa-icon-512.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/pwa-icon-192.png" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('JanBoli Service Worker registered successfully:', reg.scope))
+            .catch((err) => console.error('JanBoli Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
+
